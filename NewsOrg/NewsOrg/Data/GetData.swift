@@ -37,7 +37,7 @@ class GetData: ObservableObject {
                 let id = i.1["publishedAt"].stringValue
                 
                 DispatchQueue.main.async{
-                    self.datas.append(DataType(id: id, title: title, desc: description, image: image))
+                    self.datas.append(DataType(id: id, title: title, desc: description, image: image, url: url))
                 }
             }
         }.resume()

@@ -17,7 +17,11 @@ struct ContentView: View {
         
         NavigationView {
             List(list.datas) { i in
-                NewsCardView(image: i.image, headline: i.title, description: i.desc)
+                NavigationLink(destination: WebView(url: i.url)
+                                .navigationBarTitle("", displayMode: .inline)){
+                    NewsCardView(image: i.image, headline: i.title, description: i.desc)
+                }
+               
             }.navigationBarTitle("Headlines")
         }
     }
@@ -29,13 +33,4 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-//HStack(spacing: 15) {
-//    VStack(alignment: .leading, spacing: 10) {
-//        Text(i.title).fontWeight(.heavy)
-//        Text(i.desc)
-//    }
-//    WebImage(url: URL(string: i.image)!, options: .highPriority, context: nil)
-//        .resizable()
-//        .frame(width: 110, height: 135)
-//        .cornerRadius(20)
-//}.padding(.vertical ,15)
+

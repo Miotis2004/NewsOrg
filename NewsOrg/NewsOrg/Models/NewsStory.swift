@@ -24,6 +24,7 @@ struct DataType: Identifiable {
     var title: String
     var desc: String
     var image: String
+    var url: String
 }
 
 
