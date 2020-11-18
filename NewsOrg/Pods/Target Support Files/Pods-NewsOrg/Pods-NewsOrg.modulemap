@@ -1,0 +1,6 @@
+framework module Pods_NewsOrg {
+  umbrella header "Pods-NewsOrg-umbrella.h"
+
+  export *
+  module * { export * }
+}
