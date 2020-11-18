@@ -30,11 +30,6 @@ struct NewsCardView: View {
         .padding(10)
     }
     
-    public mutating func loadData(pic: String, title: String, desc: String) {
-        image = pic
-        headline = title
-        description = desc
-    }
 }
 
 struct NewsCardView_Previews: PreviewProvider {
