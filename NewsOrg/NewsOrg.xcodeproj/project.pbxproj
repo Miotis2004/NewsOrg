@@ -15,6 +15,7 @@
 		3ABC4C7225643A86000197BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ABC4C7125643A86000197BE /* Assets.xcassets */; };
 		3ABC4C7525643A86000197BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ABC4C7425643A86000197BE /* Preview Assets.xcassets */; };
 		3ABC4C84256440A2000197BE /* NewsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABC4C83256440A2000197BE /* NewsCardView.swift */; };
+		3AE31AE42564DE0B004E1341 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE31AE32564DE0B004E1341 /* ButtonView.swift */; };
 		A3280D690036631C407A4F92 /* Pods_NewsOrg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DCBDCEE5A24CBCEE373069 /* Pods_NewsOrg.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		3ABC4C7425643A86000197BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3ABC4C7625643A86000197BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3ABC4C83256440A2000197BE /* NewsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCardView.swift; sourceTree = "<group>"; };
+		3AE31AE32564DE0B004E1341 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		5FABEC825305A0CC0BA578CA /* Pods-NewsOrg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsOrg.release.xcconfig"; path = "Target Support Files/Pods-NewsOrg/Pods-NewsOrg.release.xcconfig"; sourceTree = "<group>"; };
 		81DCBDCEE5A24CBCEE373069 /* Pods_NewsOrg.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsOrg.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD7975C1A37E05D9FF38DE56 /* Pods-NewsOrg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsOrg.debug.xcconfig"; path = "Target Support Files/Pods-NewsOrg/Pods-NewsOrg.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 			children = (
 				3ABC4C6F25643A84000197BE /* ContentView.swift */,
 				3ABC4C83256440A2000197BE /* NewsCardView.swift */,
+				3AE31AE32564DE0B004E1341 /* ButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				3A206E7425649054005B8EAB /* NewsStory.swift in Sources */,
 				3ABC4C6E25643A84000197BE /* NewsOrgApp.swift in Sources */,
 				3A206E7125648F5A005B8EAB /* Constants.swift in Sources */,
+				3AE31AE42564DE0B004E1341 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

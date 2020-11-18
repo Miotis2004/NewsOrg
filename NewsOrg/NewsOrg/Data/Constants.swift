@@ -8,5 +8,5 @@
 import Foundation
 
 struct Constants {
-    let newsApiKey:String = "a53c806990674b42842537638c545e2f"
+    public let headlineUrl:String = "https://newsapi.org/v2/top-headlines?country=us&apiKey=a53c806990674b42842537638c545e2f"
 }

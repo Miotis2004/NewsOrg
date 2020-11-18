@@ -5,16 +5,22 @@
 //  Created by Field Employee on 11/17/20.
 //
 
-import Foundation
+import SwiftUI
+import Combine
 import SwiftyJSON
 import SDWebImageSwiftUI
 
+//
 class GetData: ObservableObject {
+    var didChange = PassthroughSubject<Void, Never>()
+    
+    var source = "https://newsapi.org/v2/top-headlines?country=us&apiKey=a53c806990674b42842537638c545e2f" {didSet {didChange.send()}}
+
     
     @Published var datas = [DataType]()
     
     init() {
-        let source = "https://newsapi.org/v2/top-headlines?country=us&apiKey=a53c806990674b42842537638c545e2f"
+        //source = "https://newsapi.org/v2/top-headlines?country=us&apiKey=a53c806990674b42842537638c545e2f"
         
         let url = URL(string: source)!
         
