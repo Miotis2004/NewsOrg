@@ -17,6 +17,13 @@
 		3ABC4C84256440A2000197BE /* NewsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABC4C83256440A2000197BE /* NewsCardView.swift */; };
 		3AE31AE42564DE0B004E1341 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE31AE32564DE0B004E1341 /* ButtonView.swift */; };
 		A3280D690036631C407A4F92 /* Pods_NewsOrg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DCBDCEE5A24CBCEE373069 /* Pods_NewsOrg.framework */; };
+		FD15ECFA2586958200CF3B3A /* HeadlinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15ECF92586958200CF3B3A /* HeadlinesView.swift */; };
+		FD15ECFD258696BB00CF3B3A /* SportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15ECFC258696BB00CF3B3A /* SportsView.swift */; };
+		FD15ED002586970300CF3B3A /* GetSportsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15ECFF2586970300CF3B3A /* GetSportsData.swift */; };
+		FD15ED03258697E200CF3B3A /* GetUKData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15ED02258697E200CF3B3A /* GetUKData.swift */; };
+		FD15ED062586981B00CF3B3A /* UKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15ED052586981B00CF3B3A /* UKView.swift */; };
+		FD15ED0A2586A01600CF3B3A /* GetEntertainmentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15ED092586A01600CF3B3A /* GetEntertainmentData.swift */; };
+		FD15ED0D2586A0AC00CF3B3A /* EntertainmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15ED0C2586A0AC00CF3B3A /* EntertainmentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +41,13 @@
 		5FABEC825305A0CC0BA578CA /* Pods-NewsOrg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsOrg.release.xcconfig"; path = "Target Support Files/Pods-NewsOrg/Pods-NewsOrg.release.xcconfig"; sourceTree = "<group>"; };
 		81DCBDCEE5A24CBCEE373069 /* Pods_NewsOrg.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsOrg.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD7975C1A37E05D9FF38DE56 /* Pods-NewsOrg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsOrg.debug.xcconfig"; path = "Target Support Files/Pods-NewsOrg/Pods-NewsOrg.debug.xcconfig"; sourceTree = "<group>"; };
+		FD15ECF92586958200CF3B3A /* HeadlinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlinesView.swift; sourceTree = "<group>"; };
+		FD15ECFC258696BB00CF3B3A /* SportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsView.swift; sourceTree = "<group>"; };
+		FD15ECFF2586970300CF3B3A /* GetSportsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSportsData.swift; sourceTree = "<group>"; };
+		FD15ED02258697E200CF3B3A /* GetUKData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUKData.swift; sourceTree = "<group>"; };
+		FD15ED052586981B00CF3B3A /* UKView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UKView.swift; sourceTree = "<group>"; };
+		FD15ED092586A01600CF3B3A /* GetEntertainmentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetEntertainmentData.swift; sourceTree = "<group>"; };
+		FD15ED0C2586A0AC00CF3B3A /* EntertainmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntertainmentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +115,9 @@
 			children = (
 				3A206E7025648F5A005B8EAB /* Constants.swift */,
 				3A364670256493F60036477D /* GetData.swift */,
+				FD15ECFF2586970300CF3B3A /* GetSportsData.swift */,
+				FD15ED02258697E200CF3B3A /* GetUKData.swift */,
+				FD15ED092586A01600CF3B3A /* GetEntertainmentData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -127,6 +144,10 @@
 				3ABC4C6F25643A84000197BE /* ContentView.swift */,
 				3ABC4C83256440A2000197BE /* NewsCardView.swift */,
 				3AE31AE32564DE0B004E1341 /* ButtonView.swift */,
+				FD15ECF92586958200CF3B3A /* HeadlinesView.swift */,
+				FD15ECFC258696BB00CF3B3A /* SportsView.swift */,
+				FD15ED052586981B00CF3B3A /* UKView.swift */,
+				FD15ED0C2586A0AC00CF3B3A /* EntertainmentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -264,9 +285,16 @@
 				3ABC4C84256440A2000197BE /* NewsCardView.swift in Sources */,
 				3ABC4C7025643A84000197BE /* ContentView.swift in Sources */,
 				3A364671256493F60036477D /* GetData.swift in Sources */,
+				FD15ED0D2586A0AC00CF3B3A /* EntertainmentView.swift in Sources */,
 				3A206E7425649054005B8EAB /* NewsStory.swift in Sources */,
+				FD15ECFD258696BB00CF3B3A /* SportsView.swift in Sources */,
+				FD15ED002586970300CF3B3A /* GetSportsData.swift in Sources */,
+				FD15ED062586981B00CF3B3A /* UKView.swift in Sources */,
+				FD15ED0A2586A01600CF3B3A /* GetEntertainmentData.swift in Sources */,
 				3ABC4C6E25643A84000197BE /* NewsOrgApp.swift in Sources */,
+				FD15ED03258697E200CF3B3A /* GetUKData.swift in Sources */,
 				3A206E7125648F5A005B8EAB /* Constants.swift in Sources */,
+				FD15ECFA2586958200CF3B3A /* HeadlinesView.swift in Sources */,
 				3AE31AE42564DE0B004E1341 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
