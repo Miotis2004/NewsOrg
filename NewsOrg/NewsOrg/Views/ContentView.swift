@@ -41,6 +41,11 @@ struct ContentView: View {
                 }){
                     ButtonView(buttonName: "Entertainment")
                 }
+                Button(action: {
+                    newsSource = .technology
+                }){
+                    ButtonView(buttonName: "Technology")
+                }
             }
         }
         
@@ -52,6 +57,8 @@ struct ContentView: View {
             UKView()
         } else if newsSource == .entertainment {
             EntertainmentView()
+        } else if newsSource == .technology {
+            TechnologyView()
         }
         
         
@@ -79,5 +86,6 @@ enum NewsSource {
     case sports
     case uk
     case entertainment
+    case technology
 }
 
